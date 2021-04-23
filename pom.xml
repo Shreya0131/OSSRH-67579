@@ -19,7 +19,7 @@
         <connection>scm:git:git://github.com:Shreya0131/OSSRH-67579.git</connection>
         <developerConnection>scm:git:git@github.com:Shreya0131/OSSRH-67579.git</developerConnection>
         <url>https://github.com/Shreya0131/OSSRH-67579</url>
-        <!--<tag>HEAD</tag>-->
+        <tag>PUBLIC</tag>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
