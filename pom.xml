@@ -8,18 +8,18 @@
         <version>2.4.4</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.github.Shreya0131</groupId>
-    <artifactId>ProjectRepository</artifactId>
-    <name>Repository</name>
+    <groupId>io.github.shreya0131</groupId>
+    <artifactId>PublicRepository</artifactId>
+    <name>ProjectRepository</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Java Project Repository with Maven Build Tool</description>
-    <url>https://github.com/Shreya0131/ProjectRepository</url>
+    <url>https://github.com/Shreya0131/OSSRH-67579</url>
     <inceptionYear>2021</inceptionYear>
     <scm>
         <!--<connection>scm:git:git://github.com:Shreya0131/ProjectRepository.git</connection>
         <developerConnection>scm:git:git@github.com:Shreya0131/ProjectRepository.git</developerConnection>-->
-        <url>https://github.com/Shreya0131/ProjectRepository</url>
+        <url>https://github.com/Shreya0131/OSSRH-67579</url>
         <!--<tag>HEAD</tag>-->
     </scm>
     <properties>
