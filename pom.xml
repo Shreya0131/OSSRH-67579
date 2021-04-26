@@ -87,7 +87,7 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <releaseProfiles>release-sign-artifacts</releaseProfiles>
                     <useReleaseProfile>false</useReleaseProfile>
-                    <goals>deploy</goals>
+                    <!--<goals>deploy</goals>-->
                         <checkModificationExcludes>
                             <checkModificationExclude>pom.xml</checkModificationExclude>
                         </checkModificationExcludes>
