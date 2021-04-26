@@ -93,6 +93,9 @@
                         </checkModificationExcludes>
                         <localCheckout>true</localCheckout>
                         <pushChanges>false</pushChanges>
+                    <remoteTagging>true</remoteTagging>
+                    <preparationGoals>clean install</preparationGoals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
