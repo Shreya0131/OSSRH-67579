@@ -18,7 +18,7 @@
     <scm>
         <connection>scm:git:https://github.com:Shreya0131/OSSRH-67579.git</connection>
         <!--<developerConnection>scm:git:git@github.com:Shreya0131/OSSRH-67579.git</developerConnection>-->
-        <url>https://github.com/Shreya0131/OSSRH-67579</url>
+        <url>https://github.com/Shreya0131/OSSRH-67579.git/</url>
     <tag>PUBLICREPOSITORY</tag>
   </scm>
     <properties>
@@ -89,6 +89,8 @@
                         <checkModificationExcludes>
                             <checkModificationExclude>pom.xml</checkModificationExclude>
                         </checkModificationExcludes>
+                        <localCheckout>true</localCheckout>
+                        <pushChanges>false</pushChanges>
                 </configuration>
             </plugin>
         </plugins>
