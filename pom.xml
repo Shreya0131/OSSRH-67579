@@ -18,7 +18,7 @@
     <scm>
         <connection>scm:git:https://github.com:Shreya0131/OSSRH-67579.git</connection>
         <!--<developerConnection>scm:git:git@github.com:Shreya0131/OSSRH-67579.git</developerConnection>-->
-        <url>https://github.com/Shreya0131/OSSRH-67579.git/</url>
+        <url>https://github.com/Shreya0131/OSSRH-67579.git/src</url>
     <tag>PUBLIC-REPOSITORY</tag>
   </scm>
     <properties>
@@ -115,27 +115,27 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
                         <version>3.0.1</version>
-                        <!--<executions>
+                        <executions>
                             <execution>
                                 <id>attach-sources</id>
                                 <goals>
                                     <goal>jar-no-fork</goal>
                                 </goals>
                             </execution>
-                        </executions>-->
+                        </executions>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>3.0.1</version>
-                        <!--<executions>
+                        <executions>
                             <execution>
                                 <id>attach-javadocs</id>
                                 <goals>
                                     <goal>jar</goal>
                                 </goals>
                             </execution>
-                        </executions>-->
+                        </executions>
                     </plugin>
                     <!-- GPG Signature on release -->
                     <plugin>
