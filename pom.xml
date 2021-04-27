@@ -78,7 +78,7 @@
                     </filesets>
                 </configuration>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
@@ -87,7 +87,7 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <releaseProfiles>release-sign-artifacts</releaseProfiles>
                     <useReleaseProfile>false</useReleaseProfile>
-                    <!--<goals>deploy</goals>-->
+                    &lt;!&ndash;<goals>deploy</goals>&ndash;&gt;
                         <checkModificationExcludes>
                             <checkModificationExclude>pom.xml</checkModificationExclude>
                         </checkModificationExcludes>
@@ -97,7 +97,7 @@
                     <preparationGoals>clean install</preparationGoals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
     <profiles>
