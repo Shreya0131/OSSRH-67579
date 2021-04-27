@@ -10,15 +10,15 @@
     <groupId>io.github.Shreya0131</groupId>
     <artifactId>OSSRH-67579</artifactId>
     <name>ProjectRepository</name>
-    <version>1-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <version>0-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <description>Java Project Repository with Maven Build Tool</description>
-    <url>https://github.com/Shreya0131/OSSRH-67579.git/</url>
+    <url>https://github.com/Shreya0131/OSSRH-67579.git</url>
     <inceptionYear>2021</inceptionYear>
     <scm>
         <connection>scm:git:https://github.com:Shreya0131/OSSRH-67579.git</connection>
         <!--<developerConnection>scm:git:git@github.com:Shreya0131/OSSRH-67579.git</developerConnection>-->
-        <url>https://github.com/Shreya0131/OSSRH-67579.git/</url>
+        <url>https://github.com/Shreya0131/OSSRH-67579.git/src/</url>
     <tag>PUBLIC-REPOSITORY</tag>
   </scm>
     <properties>
@@ -52,8 +52,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -78,26 +78,26 @@
                     </filesets>
                 </configuration>
             </plugin>
-            <!--<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
+            <plugin>
+
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
+
                 <configuration>
-                    <tagNameFormat>v@{project.version}</tagNameFormat>
+                    <!--<tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <releaseProfiles>release-sign-artifacts</releaseProfiles>
                     <useReleaseProfile>false</useReleaseProfile>
-                    &lt;!&ndash;<goals>deploy</goals>&ndash;&gt;
+                    <goals>deploy</goals>-->
                         <checkModificationExcludes>
                             <checkModificationExclude>pom.xml</checkModificationExclude>
                         </checkModificationExcludes>
-                        <localCheckout>true</localCheckout>
+                        <!--<localCheckout>true</localCheckout>
                         <pushChanges>false</pushChanges>
                     <remoteTagging>true</remoteTagging>
                     <preparationGoals>clean install</preparationGoals>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>-->
                 </configuration>
-            </plugin>-->
+            </plugin>
         </plugins>
     </build>
     <profiles>
@@ -115,27 +115,27 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
                         <version>3.0.1</version>
-                        <executions>
+                        <!--<executions>
                             <execution>
                                 <id>attach-sources</id>
                                 <goals>
                                     <goal>jar-no-fork</goal>
                                 </goals>
                             </execution>
-                        </executions>
+                        </executions>-->
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>3.0.1</version>
-                        <executions>
+                        <!--<executions>
                             <execution>
                                 <id>attach-javadocs</id>
                                 <goals>
                                     <goal>jar</goal>
                                 </goals>
                             </execution>
-                        </executions>
+                        </executions>-->
                     </plugin>
                     <!-- GPG Signature on release -->
                     <plugin>
