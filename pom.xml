@@ -10,7 +10,7 @@
     <groupId>io.github.Shreya0131</groupId>
     <artifactId>OSSRH-67579</artifactId>
     <name>ProjectRepository</name>
-    <version>0-SNAPSHOT</version>
+    <version>0</version>
     <packaging>jar</packaging>
     <description>Java Project Repository with Maven Build Tool</description>
     <url>https://github.com/Shreya0131/OSSRH-67579.git</url>
@@ -18,7 +18,7 @@
     <scm>
         <connection>scm:git:https://github.com:Shreya0131/OSSRH-67579.git</connection>
         <!--<developerConnection>scm:git:git@github.com:Shreya0131/OSSRH-67579.git</developerConnection>-->
-        <url>https://github.com/Shreya0131/OSSRH-67579.git/src/</url>
+        <url>https://github.com/Shreya0131/OSSRH-67579.git/</url>
     <tag>PUBLIC-REPOSITORY</tag>
   </scm>
     <properties>
