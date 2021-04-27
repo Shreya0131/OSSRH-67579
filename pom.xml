@@ -13,12 +13,12 @@
     <version>1</version>
     <packaging>pom</packaging>
     <description>Java Project Repository with Maven Build Tool</description>
-    <url>https://github.com/Shreya0131/OSSRH-67579.git/</url>
+    <url>https://github.com/Shreya0131/OSSRH-67579</url>
     <inceptionYear>2021</inceptionYear>
     <scm>
         <connection>scm:git:https://github.com:Shreya0131/OSSRH-67579.git</connection>
         <!--<developerConnection>scm:git:git@github.com:Shreya0131/OSSRH-67579.git</developerConnection>-->
-        <url>https://github.com/Shreya0131/OSSRH-67579.git/</url>
+        <url>https://github.com/Shreya0131/OSSRH-67579</url>
     <tag>PUBLIC-REPOSITORY</tag>
   </scm>
     <properties>
