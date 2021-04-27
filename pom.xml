@@ -81,19 +81,19 @@
 
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
-                    <!--<tagNameFormat>v@{project.version}</tagNameFormat>
+                    <tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <releaseProfiles>release-sign-artifacts</releaseProfiles>
                     <useReleaseProfile>false</useReleaseProfile>
-                    <goals>deploy</goals>-->
+                    <!--<goals>deploy</goals>-->
                         <checkModificationExcludes>
                             <checkModificationExclude>pom.xml</checkModificationExclude>
                         </checkModificationExcludes>
-                        <!--<localCheckout>true</localCheckout>
+                        <localCheckout>true</localCheckout>
                         <pushChanges>false</pushChanges>
                     <remoteTagging>true</remoteTagging>
                     <preparationGoals>clean install</preparationGoals>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>-->
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
